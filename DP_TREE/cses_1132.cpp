@@ -29,7 +29,7 @@ void eval_depth(int src, int par)
         }
     }
     depth[src] = src_depth;
-    calculateED(src, par, depth[src]);
+    calculateED(src,par,depth[src]);
 }
 
 void solve(int src, int par, int par_ans){
